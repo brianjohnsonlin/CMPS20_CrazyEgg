@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="metatiles32x32" tilewidth="32" tileheight="32">
+  <image source="../img/map/metatiles32x32.png" width="160" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="solid"/>
+   </properties>
+  </tile>
+ </tileset>
+ <imagelayer name="Background" width="40" height="20">
+  <image source="../img/backgrounds/level4_background_yi.png"/>
+ </imagelayer>
+ <layer name="Collision" width="40" height="20" visible="0">
+  <data encoding="base64">
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAAAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+  </data>
+ </layer>
+ <objectgroup name="Entities" width="40" height="20">
+  <object name="OneClickEntity" x="1216" y="320" width="32" height="32">
+   <properties>
+    <property name="#description" value="turns Eggy around at the beginning"/>
+    <property name="befType" value="flip"/>
+    <property name="image " value="blank"/>
+    <property name="notClickable" value="true"/>
+   </properties>
+  </object>
+  <object name="OneClickEntity" x="768" y="544" width="96" height="64">
+   <properties>
+    <property name="#description" value="sink plug"/>
+    <property name="aftCol" value="0,96,31,33"/>
+    <property name="aftFrames" value="4,4"/>
+    <property name="aftType" value="platform"/>
+    <property name="befCol" value="32,32,0,45"/>
+    <property name="befFrames" value="0,0"/>
+    <property name="dependsOn" value="9"/>
+    <property name="durFrames" value="0,4"/>
+    <property name="image" value="sinkLid"/>
+    <property name="spritewidth" value="96"/>
+   </properties>
+  </object>
+  <object x="896" y="0" width="128" height="96">
+   <properties>
+    <property name="aftFrames" value="6,6"/>
+    <property name="aftType" value="null"/>
+    <property name="befFrames" value="0,5"/>
+    <property name="befType" value="danger"/>
+    <property name="dependsOn" value="1"/>
+    <property name="image" value="flame_sprite"/>
+    <property name="notClickable" value="true"/>
+    <property name="spriteheight" value="128"/>
+   </properties>
+  </object>
+  <object name="OnOffEntity" x="320" y="352" width="32" height="32">
+   <properties>
+    <property name="aftFrames" value="3,3"/>
+    <property name="befFrames" value="0,0"/>
+    <property name="durFrames" value="0,3"/>
+    <property name="image" value="stove_switch"/>
+    <property name="revdurFrames" value="3,0"/>
+    <property name="spritewidth" value="32"/>
+    <property name="switchID" value="1"/>
+   </properties>
+  </object>
+  <object name="OneClickEntity" x="800" y="637" width="32" height="3">
+   <properties>
+    <property name="#description" value="bottom collision"/>
+    <property name="befType" value="platform"/>
+    <property name="image" value="blank"/>
+    <property name="notClickable" value="true"/>
+   </properties>
+  </object>
+  <object name="OneClickEntity" x="416" y="224" width="96" height="128">
+   <properties>
+    <property name="#description" value="spatula"/>
+    <property name="aftCol" value="32,64,-1,-1"/>
+    <property name="aftFrames" value="3,3"/>
+    <property name="aftType" value="rampup"/>
+    <property name="befFrames" value="0,0"/>
+    <property name="durFrames" value="0,3"/>
+    <property name="durType" value="danger"/>
+    <property name="image" value="spatula"/>
+    <property name="spritewidth" value="96"/>
+   </properties>
+  </object>
+  <object name="OnOffEntity" x="128" y="160" width="96" height="160">
+   <properties>
+    <property name="#description" value="flying pan"/>
+    <property name="aftCol" value="-1,-1,96,32"/>
+    <property name="aftFrames" value="5,5"/>
+    <property name="aftType" value="null"/>
+    <property name="befCol" value="-1,-1,0,32"/>
+    <property name="befFrames" value="0,0"/>
+    <property name="befType" value="platform"/>
+    <property name="dependsOn" value="0"/>
+    <property name="durCol" value="-1,-1,0,160"/>
+    <property name="durFrames" value="0,5"/>
+    <property name="durType" value="risedown"/>
+    <property name="image" value="steam_lid"/>
+    <property name="notClickable" value="true"/>
+    <property name="revdurCol" value="-1,-1,0,160"/>
+    <property name="revdurFrames" value="5,0"/>
+    <property name="revdurType" value="riseup"/>
+    <property name="spritewidth" value="96"/>
+   </properties>
+  </object>
+  <object name="SpongeEntity" x="864" y="304" width="96" height="64">
+   <properties>
+    <property name="#description" value="sponge cushion"/>
+    <property name="image" value="sponge"/>
+    <property name="spritewidth" value="96"/>
+    <property name="type" value="null"/>
+   </properties>
+  </object>
+  <object name="OnOffEntity" x="160" y="352" width="32" height="32">
+   <properties>
+    <property name="#description" value="Stove switch #1"/>
+    <property name="aftFrames" value="3,3"/>
+    <property name="befFrames" value="0,0"/>
+    <property name="durFrames" value="0,3"/>
+    <property name="image" value="stove_switch"/>
+    <property name="revdurFrames" value="3,0"/>
+    <property name="spritewidth" value="32"/>
+    <property name="switchID" value="0"/>
+   </properties>
+  </object>
+  <object name="OnOffEntity" x="576" y="224" width="160" height="128">
+   <properties>
+    <property name="#description" value="water faucet"/>
+    <property name="aftFrames" value="4,4"/>
+    <property name="befCol" value="-1,-1,0,96"/>
+    <property name="befFrames" value="0,0"/>
+    <property name="dependsOn" value="5"/>
+    <property name="durFrames" value="0,4"/>
+    <property name="image" value="faucet_turning"/>
+    <property name="oppSwitchID" value="3"/>
+    <property name="revdurFrames" value="4,0"/>
+    <property name="spritewidth" value="160"/>
+    <property name="switchID" value="2"/>
+   </properties>
+  </object>
+  <object name="OnOffEntity" x="672" y="544" width="64" height="64">
+   <properties>
+    <property name="#description" value="container door"/>
+    <property name="aftCol" value="0,10,0,64"/>
+    <property name="aftFrames" value="2,2"/>
+    <property name="aftType" value="danger"/>
+    <property name="befCol" value="0,64,54,10"/>
+    <property name="befFrames" value="0,0"/>
+    <property name="befType" value="null"/>
+    <property name="dependsOn" value="7,10"/>
+    <property name="durCol" value="0,50,0,64"/>
+    <property name="durFrames" value="0,2"/>
+    <property name="durType" value="danger"/>
+    <property name="image" value="container_door"/>
+    <property name="revdurCol" value="14,50,0,64"/>
+    <property name="revdurFrames" value="2,0"/>
+    <property name="revdurType" value="danger"/>
+    <property name="spritewidth" value="64"/>
+    <property name="switchAfter" value="true"/>
+    <property name="switchID" value="8"/>
+   </properties>
+  </object>
+  <object name="OnOffEntity" x="576" y="256" width="64" height="64">
+   <properties>
+    <property name="#description" value="water from faucet"/>
+    <property name="aftFrames" value="0,3"/>
+    <property name="befFrames" value="3,3"/>
+    <property name="dependsOn" value="2,4"/>
+    <property name="image" value="faucet_water"/>
+    <property name="notClickable" value="true"/>
+    <property name="spritewidth" value="64"/>
+    <property name="switchID" value="6"/>
+   </properties>
+  </object>
+  <object name="OnOffEntity" x="672" y="288" width="64" height="64">
+   <properties>
+    <property name="#description" value="water from faucet"/>
+    <property name="aftFrames" value="0,3"/>
+    <property name="befFrames" value="3,3"/>
+    <property name="dependsOn" value="3,4"/>
+    <property name="image" value="faucet_water"/>
+    <property name="notClickable" value="true"/>
+    <property name="spritewidth" value="64"/>
+   </properties>
+  </object>
+  <object name="OneClickEntity" x="576" y="352" width="3" height="256">
+   <properties>
+    <property name="#description" value="tank flip"/>
+    <property name="befType" value="flip"/>
+    <property name="image " value="blank"/>
+    <property name="notClickable" value="true"/>
+   </properties>
+  </object>
+  <object name="OnOffEntity" x="669" y="224" width="3" height="384">
+   <properties>
+    <property name="#description" value="tank flip"/>
+    <property name="aftType" value="flip"/>
+    <property name="befType" value="null"/>
+    <property name="dependsOn" value="8"/>
+    <property name="image " value="blank"/>
+    <property name="notClickable" value="true"/>
+   </properties>
+  </object>
+  <object name="OnOffEntity" x="288" y="288" width="160" height="64">
+   <properties>
+    <property name="#description" value="frying pan + fire #2"/>
+    <property name="aftFrames" value="2,2"/>
+    <property name="aftType" value="null"/>
+    <property name="befCol" value="-1,-1,31,33"/>
+    <property name="befFrames" value="0,1"/>
+    <property name="befType" value="danger"/>
+    <property name="dependsOn" value="1"/>
+    <property name="image" value="firepan"/>
+    <property name="notClickable" value="true"/>
+    <property name="spriteheight" value="64"/>
+   </properties>
+  </object>
+  <object x="256" y="0" width="352" height="160">
+   <properties>
+    <property name="#description" value="window"/>
+    <property name="notClickable" value="true"/>
+   </properties>
+  </object>
+  <object name="OneClickEntity" x="640" y="192" width="96" height="32">
+   <properties>
+    <property name="#description" value="if Eggy walks off"/>
+    <property name="befType" value="danger"/>
+    <property name="image " value="blank"/>
+    <property name="notClickable" value="true"/>
+   </properties>
+  </object>
+  <object name="OneClickEntity" x="32" y="32" width="96" height="160">
+   <properties>
+    <property name="#description" value="falling cheese to flip"/>
+    <property name="aftCol" value="-1,-1,96,64"/>
+    <property name="aftFrames" value="4,4"/>
+    <property name="aftType" value="flip"/>
+    <property name="befCol" value="-1,-1,0,64"/>
+    <property name="befFrames" value="0,0"/>
+    <property name="durCol" value="-1,-1,0,160"/>
+    <property name="durFrames" value="0,4"/>
+    <property name="durType" value="danger"/>
+    <property name="image" value="cheese2"/>
+    <property name="spritewidth" value="96"/>
+   </properties>
+  </object>
+  <object name="OnOffEntity" x="128" y="288" width="160" height="64">
+   <properties>
+    <property name="#description" value="frying pan + fire #1"/>
+    <property name="aftFrames" value="2,2"/>
+    <property name="aftType" value="null"/>
+    <property name="befCol" value="-1,-1,31,33"/>
+    <property name="befFrames" value="0,1"/>
+    <property name="befType" value="danger"/>
+    <property name="dependsOn" value="0"/>
+    <property name="image" value="firepan"/>
+    <property name="notClickable" value="true"/>
+    <property name="spriteheight" value="64"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Player" width="40" height="20">
+  <object name="Eggy" x="1184" y="320" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="Between" width="40" height="20">
+  <object name="OneClickEntity" x="576" y="352" width="96" height="256">
+   <properties>
+    <property name="#description" value="filling container"/>
+    <property name="aftFrames" value="3,3"/>
+    <property name="aftType" value="pool"/>
+    <property name="befFrames" value="0,0"/>
+    <property name="dependsOn" value="6,8"/>
+    <property name="durFrames" value="0,3"/>
+    <property name="image" value="container"/>
+    <property name="notClickable" value="true"/>
+    <property name="oppSwitchID" value="7"/>
+    <property name="spritewidth" value="96"/>
+   </properties>
+  </object>
+  <object name="OnOffEntity" x="672" y="320" width="32" height="32">
+   <properties>
+    <property name="#description" value="faucet handle"/>
+    <property name="aftFrames" value="3,3"/>
+    <property name="befFrames" value="0,0"/>
+    <property name="durFrames" value="0,3"/>
+    <property name="image" value="fauset_switch"/>
+    <property name="oppSwitchID" value="5"/>
+    <property name="revdurFrames" value="3,0"/>
+    <property name="spritewidth" value="32"/>
+    <property name="switchID" value="4"/>
+   </properties>
+  </object>
+  <object name="OnOffEntity" x="608" y="320" width="32" height="32">
+   <properties>
+    <property name="#description" value="fake faucet handle"/>
+    <property name="befFrames" value="0,0"/>
+    <property name="image" value="fauset_switch"/>
+    <property name="spritewidth" value="32"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Upper" width="40" height="20" visible="0">
+  <object name="OneClickEntity" x="480" y="416" width="288" height="224">
+   <properties>
+    <property name="aftFrames" value="2,2"/>
+    <property name="befCol" value="192,32,32,96"/>
+    <property name="befFrames" value="0,0"/>
+    <property name="durFrames" value="0,2"/>
+    <property name="image" value="counterdoor_left"/>
+    <property name="spritewidth" value="288"/>
+    <property name="switchID" value="10"/>
+   </properties>
+  </object>
+  <object name="OneClickEntity" x="768" y="416" width="288" height="224">
+   <properties>
+    <property name="aftFrames" value="2,2"/>
+    <property name="befCol" value="64,32,32,96"/>
+    <property name="befFrames" value="0,0"/>
+    <property name="durFrames" value="0,2"/>
+    <property name="image" value="counterdoor_right"/>
+    <property name="spritewidth" value="288"/>
+    <property name="switchID" value="9"/>
+   </properties>
+  </object>
+  <object name="OneClickEntity" x="544" y="352" width="448" height="64">
+   <properties>
+    <property name="image" value="counter_front"/>
+   </properties>
+  </object>
+  <object name="OneClickEntity" x="224" y="0" width="512" height="224">
+   <properties>
+    <property name="#description" value="curtain decoration"/>
+    <property name="image" value="curtain"/>
+    <property name="notClickable" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

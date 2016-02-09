@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="20" tilewidth="32" tileheight="32">
+ <imagelayer name="Image Layer 1" width="40" height="20">
+  <image source="../img/main_screen.png"/>
+ </imagelayer>
+ <objectgroup name="Entities" width="40" height="20"/>
+</map>

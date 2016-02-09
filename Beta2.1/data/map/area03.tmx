@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="20" tilewidth="32" tileheight="32" backgroundcolor="#09e7da">
+ <tileset firstgid="1" name="metatiles32x32" tilewidth="32" tileheight="32">
+  <image source="../img/map/metatiles32x32.png" width="160" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="solid"/>
+   </properties>
+  </tile>
+ </tileset>
+ <imagelayer name="Background" width="40" height="20">
+  <image source="../img/backgrounds/level_3_background.png"/>
+ </imagelayer>
+ <layer name="Collision" width="40" height="20">
+  <data encoding="base64">
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAAAAAAAAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+  </data>
+ </layer>
+ <objectgroup name="Entities" width="40" height="20">
+  <object name="ButtonEntity" x="960" y="608" width="32" height="32">
+   <properties>
+    <property name="switchID" value="1"/>
+   </properties>
+  </object>
+  <object name="ButtonEntity" x="928" y="608" width="32" height="32">
+   <properties>
+    <property name="switchID" value="2"/>
+   </properties>
+  </object>
+  <object name="ButtonEntity" x="896" y="608" width="32" height="32">
+   <properties>
+    <property name="switchID" value="3"/>
+   </properties>
+  </object>
+  <object name="ButtonEntity" x="608" y="608" width="32" height="32">
+   <properties>
+    <property name="switchID" value="4"/>
+   </properties>
+  </object>
+  <object name="ButtonEntity" x="544" y="608" width="32" height="32">
+   <properties>
+    <property name="switchID" value="6"/>
+   </properties>
+  </object>
+  <object name="ButtonEntity" x="576" y="608" width="32" height="32">
+   <properties>
+    <property name="switchID" value="5"/>
+   </properties>
+  </object>
+  <object name="ButtonEntity" x="256" y="608" width="32" height="32">
+   <properties>
+    <property name="switchID" value="7"/>
+   </properties>
+  </object>
+  <object name="ButtonEntity" x="192" y="608" width="32" height="32">
+   <properties>
+    <property name="switchID" value="9"/>
+   </properties>
+  </object>
+  <object name="ButtonEntity" x="224" y="608" width="32" height="32">
+   <properties>
+    <property name="switchID" value="8"/>
+   </properties>
+  </object>
+  <object name="OneClickEntity" x="1184" y="416" width="96" height="32">
+   <properties>
+    <property name="#description" value="flips Eggy as he falls"/>
+    <property name="befFrames" value="0,0"/>
+    <property name="befType" value="flip"/>
+    <property name="image" value="blank"/>
+    <property name="notClickable" value="true"/>
+   </properties>
+  </object>
+  <object name="OneClickEntity" x="0" y="192" width="64" height="64">
+   <properties>
+    <property name="#description" value="water cushion"/>
+    <property name="befType" value="pool"/>
+    <property name="image" value="blank"/>
+    <property name="notClickable" value="true"/>
+   </properties>
+  </object>
+  <object name="OneClickEntity" x="448" y="256" width="160" height="64">
+   <properties>
+    <property name="#description" value="water cushion (needs to fill up)"/>
+    <property name="aftFrames" value="3,3"/>
+    <property name="aftType" value="pool"/>
+    <property name="befFrames" value="0,0"/>
+    <property name="dependsOn" value="1"/>
+    <property name="durFrames" value="0,3"/>
+    <property name="image" value="tank_a"/>
+    <property name="notClickable" value="true"/>
+    <property name="spritewidth" value="160"/>
+   </properties>
+  </object>
+  <object name="OneClickEntity" x="1184" y="544" width="96" height="96">
+   <properties>
+    <property name="#description" value="water cushion"/>
+    <property name="befType" value="pool"/>
+    <property name="image" value="blank"/>
+    <property name="notClickable" value="true"/>
+   </properties>
+  </object>
+  <object name="OneClickEntity" x="0" y="480" width="32" height="64">
+   <properties>
+    <property name="#description" value="end of level"/>
+    <property name="befFrames" value="0,0"/>
+    <property name="befType" value="area04"/>
+    <property name="image" value="blank"/>
+   </properties>
+  </object>
+  <object name="OnOffEntity" x="352" y="0" width="256" height="320">
+   <properties>
+    <property name="#description" value="waterfall #1"/>
+    <property name="aftFrames" value="3,5"/>
+    <property name="aftType" value="danger"/>
+    <property name="befCol" value="-1,-1,0,192"/>
+    <property name="befFrames" value="11,11"/>
+    <property name="dependsOn" value="0"/>
+    <property name="durFrames" value="0,3"/>
+    <property name="durType" value="danger"/>
+    <property name="image" value="water_animation3"/>
+    <property name="notClickable" value="true"/>
+    <property name="revSfx" value="waterfilling"/>
+    <property name="revdurFrames" value="5,11"/>
+    <property name="revdurType" value="danger"/>
+    <property name="sfx" value="waterfilling"/>
+    <property name="spritewidth" value="256"/>
+    <property name="switchBefore" value="false"/>
+    <property name="switchID" value="1"/>
+   </properties>
+  </object>
+  <object name="OnOffEntity" x="368" y="8" width="32" height="32">
+   <properties>
+    <property name="#description" value="water valve #1"/>
+    <property name="aftFrames" value="0,0"/>
+    <property name="befFrames" value="0,0"/>
+    <property name="durFrames" value="0,3"/>
+    <property name="image" value="water_switch"/>
+    <property name="revSfx" value="thud"/>
+    <property name="revdurFrames" value="0,3"/>
+    <property name="sfx" value="thud"/>
+    <property name="spritewidth" value="32"/>
+    <property name="switchID" value="0"/>
+   </properties>
+  </object>
+  <object name="OneClickEntity" x="704" y="256" width="64" height="160">
+   <properties>
+    <property name="#description" value="water cushion (needs to fill up)"/>
+    <property name="aftCol" value="-1,-1,0,160"/>
+    <property name="aftFrames" value="3,3"/>
+    <property name="aftType" value="pool"/>
+    <property name="befCol" value="-1,-1,96,64"/>
+    <property name="befFrames" value="0,0"/>
+    <property name="befType" value="pool"/>
+    <property name="dependsOn" value="3"/>
+    <property name="durFrames" value="0,3"/>
+    <property name="image" value="tank_b"/>
+    <property name="notClickable" value="true"/>
+    <property name="spritewidth" value="64"/>
+   </properties>
+  </object>
+  <object name="OnOffEntity" x="720" y="8" width="32" height="32">
+   <properties>
+    <property name="#description" value="water valve #2"/>
+    <property name="aftFrames" value="0,0"/>
+    <property name="befFrames" value="0,0"/>
+    <property name="durFrames" value="0,3"/>
+    <property name="image" value="water_switch"/>
+    <property name="revSfx" value="thud"/>
+    <property name="revdurFrames" value="0,3"/>
+    <property name="sfx" value="thud"/>
+    <property name="spritewidth" value="32"/>
+    <property name="switchID" value="2"/>
+   </properties>
+  </object>
+  <object name="OnOffEntity" x="704" y="32" width="64" height="224">
+   <properties>
+    <property name="#description" value="waterfall #2"/>
+    <property name="aftCol" value="-1,-1,0,128"/>
+    <property name="aftFrames" value="4,6"/>
+    <property name="aftType" value="danger"/>
+    <property name="befCol" value="-1,-1,0,64"/>
+    <property name="befFrames" value="0,0"/>
+    <property name="dependsOn" value="2"/>
+    <property name="durCol" value="-1,-1,0,128"/>
+    <property name="durFrames" value="1,4"/>
+    <property name="durType" value="danger"/>
+    <property name="image" value="water_animation2"/>
+    <property name="notClickable" value="true"/>
+    <property name="revSfx" value="waterfilling"/>
+    <property name="revdurCol" value="-1,-1,0,128"/>
+    <property name="revdurFrames" value="6,10"/>
+    <property name="revdurType" value="danger"/>
+    <property name="sfx" value="waterfilling"/>
+    <property name="spritewidth" value="64"/>
+    <property name="switchBefore" value="false"/>
+    <property name="switchID" value="3"/>
+   </properties>
+  </object>
+  <object name="OneClickEntity" x="0" y="637" width="1184" height="3">
+   <properties>
+    <property name="#description" value="collision for bottom of screen"/>
+    <property name="befType" value="platform"/>
+    <property name="image" value="blank"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Player" width="40" height="20">
+  <object name="Eggy" x="0" y="0" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="Upper" width="40" height="20">
+  <object name="PipeEntity" x="640" y="456" width="96" height="64">
+   <properties>
+    <property name="dependsOn" value="4,5"/>
+    <property name="pipePos" value="3"/>
+   </properties>
+  </object>
+  <object name="PipeEntity" x="992" y="456" width="96" height="64">
+   <properties>
+    <property name="dependsOn" value="1"/>
+    <property name="pipePos" value="2"/>
+   </properties>
+  </object>
+  <object name="PipeEntity" x="288" y="456" width="96" height="64">
+   <properties>
+    <property name="dependsOn" value="7,8"/>
+    <property name="pipePos" value="2"/>
+   </properties>
+  </object>
+  <object name="PipeEntity" x="544" y="456" width="96" height="64">
+   <properties>
+    <property name="dependsOn" value="5"/>
+    <property name="pipePos" value="2"/>
+   </properties>
+  </object>
+  <object name="PipeEntity" x="896" y="456" width="96" height="64">
+   <properties>
+    <property name="dependsOn" value="1,2"/>
+    <property name="pipePos" value="3"/>
+   </properties>
+  </object>
+  <object name="PipeEntity" x="192" y="456" width="96" height="64">
+   <properties>
+    <property name="dependsOn" value="8,9"/>
+    <property name="pipePos" value="0"/>
+   </properties>
+  </object>
+  <object name="PipeEntity" x="96" y="456" width="96" height="64">
+   <properties>
+    <property name="dependsOn" value="7,9"/>
+    <property name="pipePos" value="3"/>
+   </properties>
+  </object>
+  <object name="PipeEntity" x="800" y="456" width="96" height="64">
+   <properties>
+    <property name="dependsOn" value="2,3"/>
+    <property name="pipePos" value="0"/>
+   </properties>
+  </object>
+  <object name="PipeEntity" x="448" y="456" width="96" height="64">
+   <properties>
+    <property name="dependsOn" value="6,4"/>
+    <property name="pipePos" value="3"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <imagelayer name="Foreground" width="40" height="20">
+  <image source="../img/backgrounds/level_3_transparent.png"/>
+ </imagelayer>
+</map>

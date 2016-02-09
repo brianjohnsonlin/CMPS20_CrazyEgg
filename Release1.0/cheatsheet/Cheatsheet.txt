@@ -1,0 +1,41 @@
+NOTE: This is meant for the instructor/TAs/graders so that they can grade our game with more ease. This way, you can advance further into the game to see the features that we have worked on. - Eggy Interactive
+The pictures allow for a visual cheatsheet while this is the text version.
+
+Level 1:
+First two have the huge mouse guiding you. Turn on the light and break the shelf.
+Click on the ice cream at the base of the broken ramp to make Eggy turn around.
+Click the chicken leg to make another ramp.
+Open the bottom section of the refrigerator via door handle.
+Click the pack of sausages in the bottom left of the freezer to extend a rope. Click the cheese at the end of the shelf to create a cushion for Eggy's fall.
+Click the egg carton at the bottom to let Eggy jump in!
+
+Level 2:
+Click the row of books to create a ramp for Eggy to walk on.
+On the bottom shelf, there is a yellow bottle of apple cider. Click it to tip it over and then the cap to spray it for a waterslide to carry Eggy across the gap. The waterslide runs out eventually, so time it right.
+At the end of the slide, click on the roll of paper towel to create a trampoline for Eggy to bounce on.
+Also on the bottom shelf is a key and a hammer. Click the hammer to move it up to the pipe and the key to unlock the shelf.
+Clicking the shelf after it's unlocked will create a ramp for Eggy to land on after he bounces.
+Click the hammer again to break the pipe so Eggy can move on.
+
+Level 3:
+On the panel, some valves turn on the water, some drain them, and some do nothing.
+The second valve from the left on the second row turns on the faucet for the second pipe.
+The third valve from the left on the third row turns on the faucet for the first pipe.
+Remember to turn off the faucets for else Eggy will be crushed by the running water.
+The pools the faucets create act as cushions for Eggy's fall.
+The bottom pipes aren't that hard. Random clicking has solved the puzzle easily.
+
+Level 4:
+Clicking the sponge on the blackboard will make it fall into the sink for a cushion
+Open the doors by clicking the handles in front of the sink to get a good view of what's inside.
+Plug up the drain so Eggy doesn't fall in.
+Clicking the small blue door will make it open and close. Let Eggy walk in and close the door behind him.
+The sink faucet is facing the wrong way, turn the faucet by clicking it and turn it on with the right faucet handle.
+This will fill up the container, letting Eggy float up. Remember he needs to be facing the right direction or else he will jump out of the wrong end of the container and fall and break.
+Click the lid of the pan on the stove. This will create another ramp. Be careful not to hit Eggy while moving the lid.
+Remember to turn off the fire before Eggy touches the hot surface.
+Clicking the lid again will move the lid/ramp to the other side.
+Turning off the fire under the pot will let its lid fall back down. Turn it back on when Eggy in on it to blow him up.
+Click the popcorn to spill it so Eggy will turn around.
+Click the right button on the air vent to turn it on. Eggy will glide across the air since he is so light.
+Open the window by clicking the handles so Eggy can escape!
